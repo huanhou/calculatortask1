@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    background-color: #96A480;
+    border: #8096a4 solid 3px;
+}
+header,h3{
+    text-align: center;
+}
+header,h2,ul,li{
+    text-align: left;
+}
+h3{
+    background-color: #96A480 
+;}
+
+a{
+    background-color: #8096a4;
+}
+thead{background-color: #8096a4;}
+table,th,td,tr{border: 3px solid #96A480 ;}
