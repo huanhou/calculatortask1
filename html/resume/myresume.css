@@ -18,3 +18,15 @@ a{
 }
 thead{background-color: #8096a4;}
 table,th,td,tr{border: 3px solid #96A480 ;}
+
+aside {
+    float: right;
+    width: 20%;
+    height: auto;
+    font-style: italic;
+    background-color: #8096a4;;
+}
+
+img{border-radius: 10px;
+    width:80%;
+}
