@@ -1,5 +1,10 @@
-body {
-	background: #e6e6e6;
+*{font-family:"Papyrus";
+background-color:#e0cac0 ;
+}
+
+
+.photo{
+	width: 100%;
 }
 
 nav ul {
@@ -59,6 +64,8 @@ img {
 	height: 300px;
   position:relative;
   right:28px;
+  border: 100%;
+  border-color: rgb(0, 90, 128);
 }
 
 aside {
@@ -102,14 +109,12 @@ video {
   padding:15px;
 }
 
-audio {
-	padding: 15px;
-	width: 98%;
-  box-sizing: border-box;
-}
-
 embed {
 	width: 400px;
 	height: 458px;
   padding:15px;
+}
+
+#vbn{
+	right: auto;
 }

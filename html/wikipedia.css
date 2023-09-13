@@ -1,0 +1,52 @@
+*{font-family: 
+    "Monaco";
+}
+
+*{background-color: 
+    rgba(9, 54, 94, 0.252);
+}
+
+.qwerty{
+    color: antiquewhite;
+}
+
+[href]{
+    color: antiquewhite;
+}
+
+img[src="types"]{
+    height: 50px;
+}
+
+footer{background-color: antiquewhite;
+}
+
+#asdfg{
+    color: rgba(9, 54, 94, 0.252) ;
+}
+
+.zxc{
+    font-weight: 100;
+}
+a:hover{
+    color: black;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h1.qwerty:hover{
+color: black;
+}
+
+.q:hover{color: brown;}
+.w:hover{color: blueviolet;}
+.e:hover{color: blue;}
+.r:hover{color: aquamarine;}
+.t:hover{color: aqua;}
+.y:hover{color: chocolate;}
+.u:hover{color: deeppink;}
+.i:hover{color: gold;}
+.o:hover{color: olivedrab;}
+.p:hover{color: pink;}

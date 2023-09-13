@@ -16,17 +16,28 @@ h3{
 a{
     background-color: #8096a4;
 }
+a:focus{color: #96A480;}
 thead{background-color: #8096a4;}
-table,th,td,tr{border: 3px solid #96A480 ;}
+table,th,td,tr{border: 3px solid #96A480;
+    width: 80%;height: 100%;
+}
 
 aside {
     float: right;
     width: 20%;
     height: auto;
     font-style: italic;
-    background-color: #8096a4;;
+    background-color: #8096a4;
 }
 
 img{border-radius: 10px;
     width:80%;
 }
+
+#language{
+   background-color: antiquewhite;  
+   color: #96A480;
+}
+
+
+
