@@ -79,6 +79,31 @@ aside {
 	font-size: 18px;
 }
 
+
+
+video {
+	display: block;
+	width: 420px;
+	height: 250px;
+  padding:15px;
+}
+
+embed {
+	width: 400px;
+	height: 458px;
+  padding:15px;
+}
+
+#vbn{
+	right: auto;
+}
+
+.fun{
+	float: right;
+	margin-right: auto;
+	display: block;
+}
+
 footer {
 	position: relative;
 	width: 100%;
@@ -100,21 +125,4 @@ footer a {
 	text-decoration: none;
 	text-align: center;
 	width: 100%;
-}
-
-video {
-	display: block;
-	width: 420px;
-	height: 250px;
-  padding:15px;
-}
-
-embed {
-	width: 400px;
-	height: 458px;
-  padding:15px;
-}
-
-#vbn{
-	right: auto;
 }

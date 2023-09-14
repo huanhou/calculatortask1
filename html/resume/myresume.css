@@ -17,10 +17,6 @@ a{
     background-color: #8096a4;
 }
 a:focus{color: #96A480;}
-thead{background-color: #8096a4;}
-table,th,td,tr{border: 3px solid #96A480;
-    width: 80%;height: 100%;
-}
 
 aside {
     float: right;
@@ -34,10 +30,21 @@ img{border-radius: 10px;
     width:80%;
 }
 
+[href]
+{color: #96a480 ;
+}
+
 #language{
    background-color: antiquewhite;  
    color: #96A480;
 }
+
+thead{background-color: #8096a4;}
+table,th,td,tr{border: 3px solid #96A480;
+    width: 80%;height: 100%;}
+
+
+
 
 
 
