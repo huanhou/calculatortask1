@@ -41,8 +41,14 @@ img{border-radius: 10px;
 
 footer{
     width:100%;
-    color: #96A480 ;
+    color:white ;
     text-align: justify;
+    background-color: #96A480;
+    position: fixed;
+    text-align: center;
+    left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 
