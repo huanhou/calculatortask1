@@ -1,5 +1,8 @@
 *{font-family:"Papyrus";
-background-color:#e0cac0 ;
+background-color:#e0cac0
+ ;
+ min-width: 200;
+ max-width: 800;
 }
 
 
@@ -15,6 +18,7 @@ nav ul {
 	background-color:rgb(0, 90, 128);
 	display: table;
 	width: 100%;
+	border: 2px dotted #e0cac0;
 }
 
 nav li {

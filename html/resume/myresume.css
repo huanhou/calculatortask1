@@ -1,10 +1,13 @@
 h1{
-    text-align: center;
     background-color: #96A480;
     border:white solid 3px;
+    margin:0 auto;
+    visibility: visible;
 }
 header,h3{
     text-align: center;
+    padding:5px 10px 5px;
+    margin: 5px;
 }
 header,h2,ul,li{
     text-align: left;
@@ -37,6 +40,8 @@ img{border-radius: 10px;
 #language{
    background-color: white;  
    color: #96A480;
+   border-radius: 30px;
+   padding: 5px;
 }
 
 footer{
