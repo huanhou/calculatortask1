@@ -16,10 +16,6 @@
     height:69px;
  }
 
- hr{
-    color: seashell;
- }
-
  .navbar {
     position: relative;
     text-decoration:underline;
@@ -42,8 +38,30 @@ a{
 }
 
 .img1{
-    size: 700px;
+    height: 700px;
     text-align: center; 
-    width: 90%;
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    right:50px;
+    width: 1340px;
+}
+
+.bad{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  text-align: center;
+}
+
+section{
+    width: 1000px;
+}
+
+section h2,h3{
+    text-align: center;
 }
 
