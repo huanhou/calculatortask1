@@ -46,7 +46,7 @@ nav{
     background-image: url(https://github.com/darkhanzhursin/jihc-fe/blob/main/homeworks/css/tea/images/img-mission-background.jpg?raw=true);
     display: flex;
     justify-content: center;
-    margin: 80px 120px;
+    margin: 80px 145px;
     width:1200px;
     height:700px;
     text-align: center;
@@ -67,8 +67,8 @@ nav{
 article{
     text-align: center;
     display: inline-block;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left:37%;
+    margin-right:auto
 }
 
 .photo{
@@ -79,17 +79,12 @@ article{
 }
 
 .boom{
-    padding-right: 2px;
-    margin-left: 180px;
+    margin-right: 1px;
+    margin-left: 250px;
 }
 
 .gym{
-    padding-left: 1px;
-}
-
-.room{
- padding-right: 1px;
- padding-left: 1px;
+    margin-left: 1px;
 }
 
 figcaption{
@@ -99,4 +94,53 @@ figcaption{
 .photos{
     display: inline-flex;
     justify-content: center;
+}
+
+.images{
+    display: inline-flex;
+    justify-content: center;  
+}
+
+.first{
+    margin-left:405px;
+    margin-right: 1px;
+}
+
+#Locations{
+    display: flex;
+    width: 100%;
+}
+
+.img2{
+    background-image: url(https://github.com/darkhanzhursin/jihc-fe/blob/main/homeworks/css/tea/images/img-locations-background.jpg?raw=true);
+    display: flex;
+    justify-content: center;
+    margin: 50px 153px;
+    height:600px;
+    width: 100%;
+    text-align: center;
+}
+
+.one{
+    text-align: center;
+    text-align: start;
+    padding-bottom: 15px;
+}
+p{
+    display: inline;
+    padding-top:15px;
+    opacity:1;
+}
+
+.good{
+    display: inline-flex;
+}
+.kill{
+    background-color: black;
+    background-size: cover;
+}
+
+.chill{
+    margin: 0;
+    padding: 0;
 }
