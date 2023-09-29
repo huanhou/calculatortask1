@@ -1,0 +1,124 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: hidden;
+}
+nav{
+  width: 100%;
+  height: 50px;
+  top: 0;
+  position: fixed;
+  background-color: aliceblue;
+  text-align: center;
+  justify-content: center;
+}
+
+nav a{
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav a :hover{
+    color: cornflowerblue;
+    text-decoration: dashed;
+}
+
+header img{
+    width: 100%;
+    height: auto;
+}
+
+section{
+    display: inline-flex;
+    padding-top: 20px;
+}
+
+figure img{
+    width: 100%;
+    height: auto;
+    border:3px solid;
+}
+
+.serials{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.p{
+    font-size: 20px;
+    margin: 10px 100px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.serial {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.serial img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    color: #777;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.questionnaire {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+main h1 {
+    font-size: 2rem;
+}
+
+main h2 {
+    font-size: 1.5rem;
+}
+
+main p {
+    font-size: 1rem;
+    color: #777;
+}
+
+main label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
