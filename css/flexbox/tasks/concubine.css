@@ -10,6 +10,7 @@ nav{
   background-color: aliceblue;
   text-align: center;
   justify-content: center;
+  box-sizing: inherit;
  
 }
 
@@ -22,7 +23,6 @@ nav a{
     justify-content: center;
     text-decoration: none;
     font-size: 25px;
-    min-width: 100px;
 }
 
 nav a :hover{
