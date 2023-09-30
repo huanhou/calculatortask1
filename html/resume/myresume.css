@@ -1,61 +1,95 @@
-h1{
-    background-color: #96A480;
-    border:white solid 3px;
-    margin:0 auto;
-    visibility: visible;
-}
-header,h3{
-    text-align: center;
-    padding:5px 10px 5px;
-    margin: 5px;
-}
-header,h2,ul,li{
-    text-align: left;
-}
-h3{
-    background-color: #96A480 
-;}
-
-a{
-    background-color: #96A480;
-}
-a:focus{color:black;}
-
-aside {
-    float: right;
-    width: 20%;
-    height: auto;
-    font-style: italic;
-    background-color:#96A480;
-}
-
-img{border-radius: 10px;
-    width:80%;
-}
-
-[href]
-{color: white ;
-}
-
-#language{
-   background-color: white;  
-   color: #96A480;
-   border-radius: 30px;
-   padding: 5px;
-}
-
-footer{
-    width:100%;
-    color:white ;
-    text-align: justify;
-    background-color: #96A480;
+header{
+    height:50px;
+    top:0;
     position: fixed;
-    text-align: center;
-    left: 0;
-  bottom: 0;
-  width: 100%;
+    display: inline-flex;
+    padding-bottom: 30px;
 }
 
+header h3{
+    justify-content: right;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: inline-flex;
+    color: #323232;
+    
+}
 
+nav{
+    padding-left:100px;
+    display: inline-flex;
+}
 
+header a{
+    color: #323232;
+    text-decoration: none;
+}
 
+header a:hover{
+ text-decoration: dashed;
+ color: cadetblue;
+}
+
+header h2{
+    padding-left: 10px;
+    justify-content: left;
+    color: #323232;
+}
+
+body{
+    background-color: #DDD0C8;
+    color: #323232;
+} 
+
+.sharshadim{
+    display: inline-flex;
+    justify-content: center;
+    padding-top:100px;
+}
+
+.agai{
+   color: #323232;
+   text-align: left;
+   padding-top: 150px;
+   padding-right: 100px;
+   padding-left: 300px;
+  
+}
+
+.yay{
+    border-radius: 150%;
+    border: 3px solid #323232;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 350px;
+    height: 420px;
+}
+
+.ma{
+    text-align: right;
+    padding-left: 100px;
+    color: #323232;
+    padding-top: 150px;
+}
+
+.kerek{
+    text-align:left;
+    font-size:40px;
+}
+
+.eduvastanu{
+    text-align: right;
+    font-size:40px;
+}
+.stipendia{
+    padding-top: 30px;
+}
+
+.lmao{
+    padding-top: 30px;
+}
+ul{
+    border:3px solid #323232;
+    font-size: 25px;
+    margin-right: 50%;
+}
