@@ -79,12 +79,12 @@ figure img{
 
 h2 {
     margin-top: 10px;
-    font-size: 1.5rem;
+    font-size: 24px;
     color: #333;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 16px;
     color: #777;
 }
 
@@ -97,22 +97,22 @@ main {
     gap: 20px;
 }
 
-.questionnaire {
+.question {
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 20px;
 }
 
 main h1 {
-    font-size: 2rem;
+    font-size: 32px;
 }
 
 main h2 {
-    font-size: 1.5rem;
+    font-size: 24px;
 }
 
 main p {
-    font-size: 1rem;
+    font-size: 16px;
     color: #777;
 }
 
@@ -121,6 +121,6 @@ main label {
     margin-top: 10px;
 }
 
-input[type="radio"] {
+input[type="molya"] {
     margin-right: 5px;
 }
