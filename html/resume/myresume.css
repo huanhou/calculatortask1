@@ -103,3 +103,38 @@ ul{
 .prikol{
     display: grid;
 }
+
+footer{
+    text-align: center;
+    background-color: #323232;
+    font-size: 20px;
+    width: 100%;
+    color: #DDD0C8;
+}
+
+ tr,td{
+    justify-content: center;
+    border: 4px solid #323232;
+    font-size: 30px;
+    padding:20px;
+}
+
+table{
+    padding-top: 60px;
+    text-align: center;
+    width: 70%;
+    justify-content:center;
+    margin-left:15%;
+    
+}
+
+table a{
+    color: #323232;
+    text-decoration: none;
+}
+
+table a:hover{
+    text-decoration: dashed;
+    color: cornflowerblue;
+    text-shadow: gray;
+}
