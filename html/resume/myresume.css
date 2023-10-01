@@ -75,21 +75,31 @@ body{
 .kerek{
     text-align:left;
     font-size:40px;
+    margin: 70px;
 }
 
 .eduvastanu{
     text-align: right;
     font-size:40px;
+    padding-left: 100px;
+    margin:70px;
 }
+
 .stipendia{
     padding-top: 30px;
+    display: inline-flex;
 }
 
 .lmao{
     padding-top: 30px;
+    display: grid;
 }
+
 ul{
     border:3px solid #323232;
     font-size: 25px;
-    margin-right: 50%;
+}
+
+.prikol{
+    display: grid;
 }
