@@ -1,0 +1,64 @@
+.hero-section{
+    height: 839px;
+}
+
+body{
+    background-color: #EEE6ED;
+}
+
+
+.logo {
+    font-family: Melinda Johan;
+    src: url(c:\Users\Moldir\Downloads\MelindaJohan\Melinda-Johan.ttf);
+    color: black;
+    font-size: 46px;
+    margin-top: 110px;
+    margin-bottom: -27px;
+    margin-left: 160px;
+
+}
+.logo2{
+    font-family: Century Gothic;
+    src: url(c:\Users\Moldir\Downloads\centurygothic.ttf);
+    color: black;
+    font-size: 13px;
+    margin-left: 180px;
+}
+#circle {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #F957A5;
+  }
+
+.textofimg{
+    font-family: Melinda Johan;
+    src: url(c:\Users\Moldir\Downloads\MelindaJohan\Melinda-Johan.ttf);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+.logo2{
+    display: inline-block;
+}
+
+.circle{
+    display: inline-block;
+}
