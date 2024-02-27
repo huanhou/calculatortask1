@@ -69,7 +69,7 @@ body{
     font-family: Finlandica;
     src: url(c:\Users\Moldir\Downloads\Finlandica-Regular.ttf);
     font-display: inline-block;
-    font-size: 16px;
+    font-size: 10px;
     float: right;
     margin-right: 20%;
 }
@@ -108,6 +108,10 @@ body{
     margin-left: 20%;
 }
 
+.prikol{
+ display: inline-block;
+}
+
 footer{
     background-color: white;
 }
@@ -126,7 +130,7 @@ text-align: left;
     font-family: Finlandica;
     src: url(c:\Users\Moldir\Downloads\Finlandica-Regular.ttf);
     width: 822px;
-    left:50%;
+    margin-left: 20%;
     margin-bottom: 30px;
     margin-top: 30px;
 }
@@ -135,7 +139,8 @@ text-align: left;
     text-align: center;
     position: absolute;
     margin-bottom: 100px;
-    left:20%
+    background-color: white;
+    margin-top: 50%;
 }
 
 
@@ -148,8 +153,58 @@ text-align: left;
   text-align: center;
   color: white;
   align-items: center;
+  margin-left: 10%;
 }
 
 .call{
-    background-color: #28003B;
+    background-color: pink;
+    display: flex;
+}
+
+.cube{
+    background-image: linear-gradient(180deg, gray,  black);
+    border: white;
+}
+
+.strange{
+    width: 512px;
+    height: auto;
+}
+
+.left{
+    display: inline-block;
+}
+
+.right{
+    display: inline-block;
+    float: right;
+    margin-top: 100px;
+}
+
+.leftt{
+    display: inline-block;
+    right: 50%;
+}
+
+.isMolya{
+    float: left;
+    display: inline-block;
+    margin-right: 50%;
+}
+section{
+    width: 100%;
+    position: inherit;
+}
+
+footer{
+    bottom: 0;
+}
+
+.imagee{
+    display: inline-block;
+    float: right;
+    width: 217px;
+    height:auto;
+    left: 50%;
+    margin-left: 50%;
 }
