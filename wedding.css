@@ -23,14 +23,7 @@ body{
     color: black;
     font-size: 13px;
     margin-left: 180px;
-}
-#circle {
-	width: 100px;
-	height: 100px;
-	background: red;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+    display: inline-block;
 }
 
 .container {
@@ -43,9 +36,12 @@ body{
     font-family: Melinda Johan;
     src: url(c:\Users\Moldir\Downloads\MelindaJohan\Melinda-Johan.ttf);
     position: absolute;
-    top: 80%;
-    left: 50%;
+    left: 25%;
+    top: 75%;
     transform: translate(-50%, -50%);
+    font-size: 174px;
+    color: #F957A5;
+    visibility: 38%;
 }
 
 .circle {
@@ -53,12 +49,107 @@ body{
     height: 10px;
     border-radius: 100%;
     background-color: red;
-}
-
-.logo2{
     display: inline-block;
 }
 
-.circle{
+
+.img-container{
+    width: 494px;
+    height: auto;
+    margin-left: 93px;
+}
+
+.img-container{
     display: inline-block;
+    
+}
+
+.molly{
+    text-decoration: underline;
+    font-family: Finlandica;
+    src: url(c:\Users\Moldir\Downloads\Finlandica-Regular.ttf);
+    font-display: inline-block;
+    font-size: 16px;
+    float: right;
+    margin-right: 20%;
+}
+
+.line{
+    height: 36px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    display: inline-block;
+}
+
+.taketape{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    color: white;
+    display: inline-block;
+}
+
+.taketape-container{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.molly2{
+    text-decoration: underline;
+    font-family: Finlandica;
+    src: url(c:\Users\Moldir\Downloads\Finlandica-Regular.ttf);
+    font-display: inline-block;
+    font-size: 16px;
+    margin-left: 20%;
+}
+
+footer{
+    background-color: white;
+}
+
+.wdd{
+font-size: 28px;
+font-family: Sofia Sans;
+src: url(c:\Users\Moldir\Downloads\SofiaSans-VariableFont_wght.ttf);
+text-align: left;
+}
+
+
+.hi{
+    align-items: center;
+    font-size: 13px;
+    font-family: Finlandica;
+    src: url(c:\Users\Moldir\Downloads\Finlandica-Regular.ttf);
+    width: 822px;
+    left:50%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.hello{
+    text-align: center;
+    position: absolute;
+    margin-bottom: 100px;
+    left:20%
+}
+
+
+.rectangle{
+  width:138px;
+  height:33px;
+  background-color: #28003B; 
+  border-radius: 4px;
+  position: relative;
+  text-align: center;
+  color: white;
+  align-items: center;
+}
+
+.call{
+    background-color: #28003B;
 }
