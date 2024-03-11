@@ -1,0 +1,16 @@
+.all{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.letter{
+    border-radius: 50%;
+    background-color: darkred;
+    color: white;
+    margin: 3px;
+    height: 23px;
+    width: 23px;
+    text-align: center;
+    padding-top: 2px;
+    display: inline;
+}

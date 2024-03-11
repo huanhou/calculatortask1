@@ -1,0 +1,26 @@
+.rectangle{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.container{
+    display: flex;
+}
+
+.text1{
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+
+.problem{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60%;
+}

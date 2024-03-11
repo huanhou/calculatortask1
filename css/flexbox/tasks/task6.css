@@ -1,0 +1,35 @@
+.qwerty{
+    position: relative;
+}
+
+.rectangle{
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: gray;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.bigger{
+   bottom: 0;
+   right: 0;
+   width: 200px;
+   height: 200px;
+   position: fixed;
+   background-color: red;
+   text-align: center;
+   border: 7px solid yellow;
+}
+
+.hotsales{
+    top: 0;
+    margin-top: 0;
+    font-weight: bold;
+}

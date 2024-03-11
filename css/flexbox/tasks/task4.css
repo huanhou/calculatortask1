@@ -1,0 +1,36 @@
+.red{
+    background-color: darkred;
+    color: white;
+    height: 100%;
+    justify-content: center;
+    padding-bottom: 50%;
+    flex: 1;
+}
+
+.title, 
+.description, 
+.aggresive{
+    text-align: center;
+}
+
+.title{
+    padding-top: 50%;
+    font-size: 80px;
+}
+
+.white{
+    float: right;
+    height: 100%;
+    background-color: white;
+    flex: 1;
+}
+
+.inline{
+    width: 100%;
+    display: flex;
+    flex: 1;
+}
+
+.notgood{
+    padding-left: 10px;
+}

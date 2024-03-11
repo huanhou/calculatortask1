@@ -1,0 +1,21 @@
+.bmw_img{
+    width: 100%;
+    height: auto;
+}
+
+.second{
+    margin-top: 20px;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+*{
+    background-color: aliceblue;
+}
+
+th{
+    text-align: left;
+}
